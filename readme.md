@@ -1,0 +1,1 @@
+React create one tree structure Its called vertual dom and comepared with real dom and Updates it.

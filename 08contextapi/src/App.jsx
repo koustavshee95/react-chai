@@ -6,6 +6,7 @@ import { useContext } from "react";
 
 const AppContext = () => {
   const { user } = useContext(UserContext);
+  
   return <>{user ? <Profile /> : <Login />}</>;
 };
 
